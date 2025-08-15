@@ -5,3 +5,5 @@ pasar todo a react
 pasar todo a typescript?
 hacer funcionar el formulario
 agregar modo oscuro?
+mejorar las imagenes
+agregar mapa 
