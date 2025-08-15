@@ -1,0 +1,7 @@
+dejar solo el logo en dispositvoos moviles
+cambiara el color de un hover mas claro
+agregar menu deplegable
+pasar todo a react
+pasar todo a typescript?
+hacer funcionar el formulario
+agregar modo oscuro?

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Entrena en Ironforce Gym, el lugar ideal para alcanzar tus objetivos de fuerza, resistencia y bienestar. Clases personalizadas, máquinas de última generación y ambiente motivador. Comenzá hoy tu cambio">
+        <meta name="keywords" content="gimnasio, entrenamiento, fitness, musculacion, clase de gimnasio, entrenamiento personal, fuerza, cardio, pilates, yoga, crossfit, salud, bienestar, ejercicios, rutinas de gimansio, perder peso, ganar masa muscular">
+        <title>Gimnasio Ejemplo</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>IRONFORCE GYM</h1>
+                <img class="logoImg" src="./images/logo.png" alt="">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2>Transforma tu cuerpo, transforma tu vida</h2>
+            <p>El mejor lugar para alcanzar tus metas de fitness</p>
+            <a href="#contacto" class="btn">¡Ínscribite ahora!</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="servicios" class="section-servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-container">
+                <div class="servicio-item">
+                    <h3>Clases Grupales</h3>
+                    <p>Clases de spinning, yoga, zumba y más. ¡Diversión garantizada!</p>
+                </div>
+                <div class="servicio-item">
+                    <h3>Entrenamiento Personal</h3>
+                    <p>Trabaja con un entrenador certificado para alcanzar tus metas más rápido.</p>
+                </div>
+                <div class="servicio-item">
+                    <h3>Área de Pesas</h3>
+                    <p>Equipamiento de última generación para tus rutinas de fuerza.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section-galeria">
+            <h2>Galería</h2>
+            <div class="galeria-container">
+                <img src="./images/img0.png" alt="Gimnasio 1">
+                <img src="./images/img1.png" alt="Gimnasio 2">
+                <img src="./images/img2.png" alt="Gimnasio 3">
+            </div>
+        </section>
+
+        <section id="contacto" class="section-contacto">
+            <h2>Contáctanos</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ironforce Gym. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
